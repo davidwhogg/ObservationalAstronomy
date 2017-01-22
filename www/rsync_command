@@ -1,0 +1,1 @@
+rsync -avrz ~/ObservationalAstronomy/www/ howdy:www/obsast/
