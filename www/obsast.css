@@ -68,7 +68,7 @@ a:hover {
 ul{
 	margin: 0ex 0em 0ex 0em;
 	padding: 0ex 0em;
-	list-style: disc outside;
+	list-style: disc inside;
 }
 dl{
 	margin: 0ex 0em 0ex 0em;
@@ -84,7 +84,7 @@ dt{
 	padding: 0ex 0.0em;
 }
 li{
-	margin: 0ex 0em 0ex 0.75em;
+	margin: 0ex 0em 0ex 0.2em;
 	padding: 0ex 0.0em;
 }
 
