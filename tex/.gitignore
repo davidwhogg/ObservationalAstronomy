@@ -2,3 +2,5 @@
 *.log
 *.bbl
 *.blg
+*.dvi
+astronomy.pdf
