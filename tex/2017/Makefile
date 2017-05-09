@@ -1,4 +1,4 @@
-ALL= midterm.pdf
+ALL= final.pdf
 
 DEPEND_TEX= physics1.tex
 
