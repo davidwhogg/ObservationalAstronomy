@@ -1,0 +1,133 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: GTVIRT 1.1 GILDAS_GROUP 28-Jul-1995
+%%Title: Hardcopy GTVIRT metacode on PostScript driver
+%%CreationDate: 05-DEC-2000 22:11:51
+%%Pages: 1
+%%DocumentsFonts: none
+%%Orientation: Portrait
+%%BoundingBox:      46    260    505    379
+%%GregPage:           18.425          17.008         574.016         739.276
+%%EndComments
+%begin(plot)
+% Will remember original state
+save
+% use a temporary dictionary
+50 dict begin
+%START GAG_PS_HEADER
+/m {moveto} bind def
+/l {lineto} bind def
+/s {stroke} bind def
+/S {currentpoint stroke moveto} bind def
+/NP {newpath} bind def
+/CPF {closepath fill} bind def
+/PenSelect { GAG_pensize mod 3 mul GAG_Pen exch 3 getinterval
+ aload pop setrgbcolor } bind def
+/PS { grestore GAG_pensize mod 3 mul GAG_Pen exch 3 getinterval
+ aload pop setrgbcolor gsave} bind def
+/FillSelect { GAG_fillsize mod 3 mul GAG_Fill exch 3 getinterval
+ aload pop setrgbcolor } bind def
+/FS { grestore GAG_fillsize mod 3 mul GAG_Fill exch 3 getinterval
+ aload pop setrgbcolor gsave } bind def
+/WS { grestore setlinewidth gsave} bind def
+/DS { grestore 0 setdash 1 setlinecap 1 setlinejoin gsave } bind def
+% For oldies that do not know colorimage operator
+/colorimage where   % is known?
+{pop}               % Yes: pop off the dictionary returned
+  {                 % no:  define colorimage
+  /picstr 32 string def    % implies that image was written as 96Z2.2 !
+  /RGBpicstr 96 string def % idem...
+  /CopyStr {currentfile picstr readhexstring pop} def
+  /CopyRGBStr {currentfile RGBpicstr readhexstring pop} def
+  /colorimage
+  {                  % def
+   pop pop pop       % remove '{readhex...} false 3' operands
+   { CopyRGBStr pop
+     0 1 31
+    { picstr exch
+      dup
+      RGBpicstr exch 3 mul 3 getinterval {cvr 255 div} forall 0.11 mul exch
+      0.59 mul add exch 0.3 mul add 255 mul cvi put
+    } for
+  picstr } image
+  } bind def
+ } ifelse          % end of 'false' case
+%End GAG_PS_HEADER
+/GAG_pensize 8 def
+/GAG_Pen GAG_pensize 3 mul array def
+  0.0   0.0   0.0
+  0.100 0.100 0.100
+  0.200 0.200 0.200
+  0.300 0.300 0.300
+  0.450 0.450 0.450
+  0.600 0.600 0.600
+  0.750 0.750 0.750
+  1.0   1.0   1.0
+GAG_Pen astore pop
+/GAG_fillsize  16 def
+/GAG_Fill GAG_fillsize 3 mul array def 
+ .9375  .9375  .9375
+ .8750  .8750  .8750
+ .8125  .8125  .8125
+ .7500  .7500  .7500
+ .6875  .6875  .6875
+ .6250  .6250  .6250
+ .5625  .5625  .5625
+ .5000  .5000  .5000
+ .4375  .4375  .4375
+ .3750  .3750  .3750
+ .3125  .3125  .3125
+ .2500  .2500  .2500
+ .1875  .1875  .1875
+ .1250  .1250  .1250
+ .0625  .0625  .0625
+ .0000  .0000  .0000
+GAG_Fill astore pop
+  18.425  17.008 translate 
+  .138897642493   .138897642493 scale
+%%EndProlog
+%%Page: 1 1
+gsave
+[] DS 
+ 3.00 WS
+ 0 PS 
+200 2000 m 800 2000 l 800 2600 l 200 2600 l 200 2000 l  s 
+[] DS 
+ 3.00 WS
+479 1821 m 479 1756 l 483 1821 m 520 1762 l 483 1814 m 520 1756 l 
+520 1821 m 520 1756 l 470 1821 m 483 1821 l 510 1821 m 529 1821 l 
+470 1756 m 489 1756 l  s 
+[] DS 
+ 3.00 WS
+1100 2000 m 1700 2000 l 1700 2600 l 1100 2600 l 1100 2000 l  s 
+[] DS 
+ 3.00 WS
+1383 1821 m 1383 1756 l 1386 1821 m 1386 1756 l 1404 1802 m 1404 1777 l 
+1373 1821 m 1423 1821 l 1423 1802 l 1420 1821 l 1386 1790 m 1404 1790 l 
+1373 1756 m 1423 1756 l 1423 1774 l 1420 1756 l  s 
+[] DS 
+ 3.00 WS
+2000 2000 m 2600 2000 l 2600 2600 l 2000 2600 l 2000 2000 l  s 
+[] DS 
+ 3.00 WS
+2318 1811 m 2321 1821 l 2321 1802 l 2318 1811 l 2312 1817 l 2303 1821 l 
+2293 1821 l 2284 1817 l 2278 1811 l 2278 1805 l 2281 1799 l 2284 1796 l 
+2290 1793 l 2309 1787 l 2315 1784 l 2321 1777 l 2278 1805 m 2284 1799 l 
+2290 1796 l 2309 1790 l 2315 1787 l 2318 1784 l 2321 1777 l 2321 1765 l 
+2315 1759 l 2306 1756 l 2296 1756 l 2287 1759 l 2281 1765 l 2278 1774 l 
+2278 1756 l 2281 1765 l  s 
+[] DS 
+ 3.00 WS
+2900 2000 m 3500 2000 l 3500 2600 l 2900 2600 l 2900 2000 l  s 
+[] DS 
+ 3.00 WS
+3175 1821 m 3187 1756 l 3178 1821 m 3187 1771 l 3200 1821 m 3187 1756 l 
+3200 1821 m 3212 1756 l 3203 1821 m 3212 1771 l 3224 1821 m 3212 1756 l 
+3166 1821 m 3187 1821 l 3215 1821 m 3233 1821 l 
+stroke grestore
+%end(plot)
+%%Trailer
+showpage
+% End of temporary dictionary
+end
+% restore original state
+restore

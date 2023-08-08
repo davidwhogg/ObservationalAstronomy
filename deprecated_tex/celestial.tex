@@ -1,0 +1,42 @@
+% update 1/25/02
+\documentclass[12pt]{article}
+\topmargin -.6in
+\textheight 8.7in
+\oddsidemargin -.0in
+\textwidth 6.5in
+
+\begin{document}
+\setcounter{page}{1}
+\setcounter{equation}{0}
+\pagestyle{plain}
+\thispagestyle{empty}  % supprees number on first page
+%\pagestyle{myheadings}
+\newcommand{\kms}{\hbox{km\,s$^{\rm -1}$}}
+%\def\kms{\ifmmode {\,{\rm km\,s^{-1}}}                          % km s-1
+%        \else {\hbox{$\,$ {\rm km$\,$s$^{\rm -1}$}}}\fi}
+%\def\solar {\ifmmode_{\mathord\odot} \else $_{\mathord\odot}$\fi} % _solar
+%\def\mo {\ifmmode {\,{\it M}\solar} \else $\,M$\solar\fi}       % M solar
+\def\lo {\ifmmode {\,{\it L}\solar} \else $\,L$\solar\fi}       % L solar
+\def\my {\ifmmode {\,{\it M}\solar\,{\rm yr^{-1}}}              % Msol/year
+        \else {$\,M$\solar$\,$yr$^{\rm -1}$}\fi}
+\def\BD {BD$\,$+30{\degr}3639}
+\def\HUNO{\rm H$\,$I}                   % molecular hydrogen
+\def\HDOS{\rm H$_2$}                    % molecular hydrogen
+\def\arcsec{\ifmmode {^{\scriptscriptstyle\prime\prime}}
+          \else $^{\scriptscriptstyle\prime\prime}$\fi}
+\def\arcminm{\ifmmode {^{\scriptscriptstyle\prime}}
+          \else $^{\scriptscriptstyle\prime}$\fi}
+\def\deg{\ifmmode^\circ\else$^\circ$\fi}
+
+
+\noindent
+{\hfill \Large {\bf The Celestial Sphere} \hfill}
+
+\input{celestial_text}
+
+
+\end{document}
+
+
+
+
