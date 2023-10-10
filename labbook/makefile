@@ -30,7 +30,8 @@ DEPEND_TEX= \
 	telescope_questions.tex \
 	rotation_orbit_questions.tex \
 	constellation_questions.tex \
-	finding_questions.tex \
+	finding_questions_fall.tex \
+	finding_questions_spring.tex \
 	stars_questions.tex \
 	variable_questions.tex \
 	galaxies_questions.tex \
