@@ -3,9 +3,7 @@
 	pdflatex $*
 	pdflatex $*
 
-all: $(patsubst %.tex,%.pdf,*.tex)
+ALL: $(patsubst %.tex,%.pdf,*.tex)
 
 fullclean:
 	rm $(ALL) *.log *.dvi *.aux *.bbl *.blg
-
-dummy:
